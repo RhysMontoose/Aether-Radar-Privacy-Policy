@@ -1,0 +1,38 @@
+Last updated: November 1, 2026
+
+Aether Radar ("the Extension," "we," "us") is a browser extension that provides Solana market research signals. This policy explains what data the Extension accesses, how it is used, and how it is stored. By installing or using the Extension, you agree to this policy.
+
+1. Information the Extension Accesses
+
+Web history (active tab only). To identify which token page you are viewing (for example, pump.fun, Axiom, or DexScreener), the Extension reads the URL of your currently active tab. The Extension does not read your full browsing history, does not track pages you visit outside the active tab, and does not record page titles or timestamps beyond the immediate session. The current tab URL is used only to extract a token mint identifier and determine the venue for scoring.
+
+Locally stored preferences. The Extension stores the following in your browser using chrome.storage.local: your Pro status, referral code, invite count, cached scoring results, and signal history. This data stays on your device.
+
+No personal, financial, health, authentication, location, or communications data. The Extension does not collect names, email addresses, identity numbers, health data, bank or card details, passwords, PINs, emails, texts, chat messages, GPS coordinates, or IP-derived location.
+
+2. How the Information Is Used
+
+The active tab URL is used solely to determine whether you are on a supported venue and to identify the token mint for scoring. Locally stored data is used solely to render the Extension's interface, remember your settings, and avoid redundant network requests. The Extension does not sell, rent, transfer, or share your data with third parties for advertising, marketing, credit assessment, lending, or any purpose unrelated to its single purpose.
+
+3. Data Transmission
+
+The Extension fetches public market data from the following public APIs: pump.fun, DexScreener, GeckoTerminal, CoinGecko, and the Solana mainnet RPC. These requests do not include your browsing history, personal identifiers, or any data about you. They request token and price data by public mint address. If you enable a future data-refresh server, it will receive only public token identifiers and will not receive your browsing history or personal data.
+
+The Extension does not use remote code. All JavaScript and WebAssembly executed by the Extension is packaged within the Extension and is not loaded from external servers.
+
+4. Data Retention and Control
+
+All data stored by the Extension resides in chrome.storage.local on your device. You can clear it at any time by removing the Extension or clearing extension data in Chrome. Uninstalling the Extension removes all locally stored data.
+
+5. Children's Privacy
+
+The Extension is not directed to children under 13 and does not knowingly collect information from children.
+
+6. Changes to This Policy
+
+We may update this policy from time to time. Material changes will be reflected in the "Last updated" date above.
+
+7. Contact
+
+For questions about this policy, contact: [your email address here]
+
